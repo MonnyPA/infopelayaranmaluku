@@ -25,7 +25,7 @@
                         <div class="title mx-5 px-5 animated slideInDown">
                             <div class="title-center">
                                 <h5 class="text-success">Info Jadwal</h5>
-                                <h1 class="display-1 text-warning">Kapal Pelni</h1>
+                                <h1 class="display-1 text-warning"><a href="#kapal_pelni">Kapal Pelni</a></h1>
                             </div>
                         </div>
                         <p class="fs-5 mb-5 animated slideInDown">Kami akan menyajikan Info Jadwal semua Kapal Pelni <br> dari atau menuju Kota Ambon secara up to date.</p>
@@ -39,7 +39,7 @@
                         <div class="title mx-5 px-5 animated slideInDown">
                             <div class="title-center">
                                 <h5 class="text-success">Info Jadwal</h5>
-                                <h1 class="display-1 text-warning">Kapal Ferry</h1>
+                                <h1 class="display-1 text-warning"><a href="#kapal_ferry">Kapal Ferry</a></h1>
                             </div>
                         </div>
                         <p class="fs-5 mb-5 animated slideInDown">Kami akan menyajikan Info Jadwal semua Kapal Ferry ASDP <br> dari atau menuju Kota Ambon secara up to date.</p>
@@ -97,29 +97,46 @@
                 <div class="col-lg-7 pb-0 pb-lg-5 py-5">
                     <div class="pb-0 pb-lg-5 py-5">
                         <div class="title wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="title-left">
+                            <div id="kapal_pelni" class="title-left">
                                 <h5>Kapal Pelni</h5>
                                 <h1>Periode Juni 2026</h1>
                             </div>
                         </div>
-                        <p class="mb-4 wow fadeInUp" data-wow-delay="0.2s">Tempor erat elitr rebum at clita. Diam dolor
-                            diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet
-                            lorem sit clita duo justo magna dolore erat amet. Stet no et lorem dolor et diam, amet duo
-                            ut dolore vero eos.</p>
-                        <ul class="list-group list-group-flush mb-5 wow fadeInUp" data-wow-delay="0.3s">
-                            <li class="list-group-item bg-dark text-body border-secondary ps-0">
-                                <i class="fa fa-check-circle text-primary me-1"></i> Lorem ipsum dolor sit amet
-                                consectetur elit.
-                            </li>
-                            <li class="list-group-item bg-dark text-body border-secondary ps-0">
-                                <i class="fa fa-check-circle text-primary me-1"></i> Donec vehicula, sem ut tempus
-                                tempus.
-                            </li>
-                            <li class="list-group-item bg-dark text-body border-secondary ps-0">
-                                <i class="fa fa-check-circle text-primary me-1"></i> Morbi mi dapibus, feugiat nisi non
-                                mollis justo.
-                            </li>
-                        </ul>
+                        <p class="mb-4 wow fadeInUp" data-wow-delay="0.2s">Kapal-kapal dari PT Pelni yang melaui Pelabuhan Kota Ambon, adalah sebagai berikut :</p>
+                        <div class="row">
+                            <div class="col">
+                                <ul class="list-group list-group-flush mb-5 wow fadeInUp" data-wow-delay="0.3s">
+                                <li class="list-group-item bg-dark text-body border-secondary ps-0">
+                                    <i class="fa fa-check-circle text-primary me-1"></i> <a href="#"> KM. Gunung Dempo</a>
+                                </li>
+                                <li class="list-group-item bg-dark text-body border-secondary ps-0">
+                                    <i class="fa fa-check-circle text-primary me-1"></i> <a href="#"> KM. Dobonsolo</a>
+                                </li>
+                                <li class="list-group-item bg-dark text-body border-secondary ps-0">
+                                    <i class="fa fa-check-circle text-primary me-1"></i> <a href="#"> KM. Dorolonda</a>
+                                </li>
+                                <li class="list-group-item bg-dark text-body border-secondary ps-0">
+                                    <i class="fa fa-check-circle text-primary me-1"></i> <a href="#"> KM. Nggapulu</a>
+                                </li>
+                                </ul>
+                            </div>
+                            <div class="col">
+                                <ul class="list-group list-group-flush mb-5 wow fadeInUp" data-wow-delay="0.3s">
+                                <li class="list-group-item bg-dark text-body border-secondary ps-0">
+                                    <i class="fa fa-check-circle text-primary me-1"></i> <a href="#"> KM. Ciremai</a>
+                                </li>
+                                <li class="list-group-item bg-dark text-body border-secondary ps-0">
+                                    <i class="fa fa-check-circle text-primary me-1"></i> <a href="#"> KM. Sirimau</a>
+                                </li>
+                                <li class="list-group-item bg-dark text-body border-secondary ps-0">
+                                    <i class="fa fa-check-circle text-primary me-1"></i> <a href="#"> KM. Pangorango</a>
+                                </li>
+                                <li class="list-group-item bg-dark text-body border-secondary ps-0">
+                                    <i class="fa fa-check-circle text-primary me-1"></i> <a href="#"> KM. Labobar</a>
+                                </li>
+                                </ul>
+                            </div>
+                        </div>
                         <div class="row wow fadeInUp" data-wow-delay="0.4s">
                             <div class="col-6">
                                 <a href="#!" class="btn btn-outline-primary border-2 py-3 w-100">Become A Model</a>
@@ -131,17 +148,17 @@
                     </div>
                 </div>
                 <div class="col-lg-5 wow fadeInUp" data-wow-delay="0.5s">
-                    <img class="img-thumbnail" src="{{ asset('assets/img/kelud.jpg') }}" alt="">
+                    <img class="img-thumbnail" src="{{ asset('assets/img/Pelni.png') }}" alt="">
                 </div>
             </div>
             <div class="row g-5 align-items-center">
                 <div class="col-lg-5 wow fadeInUp" data-wow-delay="0.5s">
-                    <img class="img-thumbnail" src="{{ asset('assets/img/ferryyyy.jpg') }}" alt="">
+                    <img class="img-thumbnail" src="{{ asset('assets/img/ferry.png') }}" alt="">
                 </div>
                 <div class="col-lg-7 pb-0 pb-lg-5 py-5">
                     <div class="pb-0 pb-lg-5 py-5">
                         <div class="title wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="title-left">
+                            <div id="kapal_ferry" class="title-left">
                                 <h5>Kapal Ferry</h5>
                                 <h1>Periode Juni 2026</h1>
                             </div>
@@ -214,7 +231,7 @@
                     </div>
                 </div>
                 <div class="col-lg-5 wow fadeInUp" data-wow-delay="0.5s">
-                    <img class="img-thumbnail" src="{{ asset('assets/img/cantika.jpeg') }}" alt="">
+                    <img class="img-thumbnail" src="{{ asset('assets/img/cantika.png') }}" alt="">
                 </div>
             </div>
         </div>
